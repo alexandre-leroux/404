@@ -1,0 +1,55 @@
+body{
+    background-image: url(elements/perdu-mer.jpg) ;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1, h2{
+    font-family: 'Comfortaa', cursive;
+    margin-left: 60px;
+    margin-top: 20px;
+    color: cadetblue;
+}
+
+#titre{
+    font-size: 3em;
+}
+
+.Skill-Area {
+    width: 70%;
+    float: left;
+    position: absolute;
+    margin-top: 7px;
+    margin-left: 15px;
+    text-shadow: none;
+    color: #fff;
+    font-size: 1.5em;
+}
+
+.PercentText {
+    padding-right: 15px;
+    margin-top: 10px;
+    float: right;
+    text-shadow: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+
+#Skill-HTML {
+    border-radius: 10px;
+    width: 60%;
+    animation: Animate-HTML 4s;
+    height: 40px;
+    position: absolute;
+    background-color: #ea8564;
+}
+
+@keyframes Animate-HTML {
+    from {
+    width: 10px;
+}
+to {
+    width: 60%}
